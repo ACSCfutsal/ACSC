@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>ACSC - Galerie</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <!-- header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.png" alt="ACSC logo" class="logo"><span>ACSC</span></a>
+      <nav> <button class="nav-toggle">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="club.html">Le club</a></li>
+          <li><a href="equipes.html">Équipes</a></li>
+          <li><a href="planning.html">Planning</a></li>
+          <li><a href="galerie.html" class="active">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Galerie photos</h1>
+    <div class="gallery" id="gallery">
+      <img src="images/photo1.jpeg" alt="Match" data-large="images/photo1.jpeg">
+      <img src="images/photo2.jpg" alt="Entraînement" data-large="images/photo2.jpg">
+      <img src="images/photo3.jpeg" alt="Équipe" data-large="images/photo3.jpeg">
+      <img src="images/photo4.png" alt="Podium" data-large="images/photo4.png">
+    </div>
+  </main>
+
+  <!-- modal image -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Fermer">✕</button>
+    <img src="" alt="" class="lb-img">
+  </div>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>&copy; 2025 ACSC</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
